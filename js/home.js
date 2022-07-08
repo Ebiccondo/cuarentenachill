@@ -10,14 +10,33 @@ const res = "?sheet=Global&key="
 var hrefTP = false
 var GlobalGameID = null
 
-
+var dd = false
 function GetData(PlaceID, gamesdata) {
   swal.close()
   setTimeout(() => {
       if (hrefTP == true) {
-        window.open(`https://roblox.com/games/` + PlaceID, "_self")
+        if (dd == false) {
+          window.open(`https://roblox.com/games/` + PlaceID, "_self")
+        }
       }
     }, 4100);
+
+    if (PlaceID == "") {
+      dd = true
+      var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close();">Cerrar</a></div>'
+      return Swal.fire({
+        title: "<h4 onselectstart='false' style='font-size: 115%;color:#d1d1d1;'>No hay juegos</h4>",
+        html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >No hay juegos disponibles, puedes ver mas juegos en la seccion "Mas Juegos Condo" o vuelva pronto, actualizamos los juegos todos los dias!</h7>`,
+        footer: btnC,
+        showCancelButton: false,
+        showConfirmButton: false,
+        focusCancel: false,
+        focusConfirm:false,
+        background: '#27266a',
+    })
+    
+    }
+
     $('#CaptchaGame').css('display', 'none');
     $('#GameLoading').css('display', 'block');
     var GetUniverseID = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec?sheet=Global&key="+ "GetGameName" + PlaceID
@@ -37,19 +56,7 @@ function GetData(PlaceID, gamesdata) {
         //$('#CaptchaGame').text(PlaceDesc)
         //$('#CaptchaGame').text(Playing)
         GlobalGameID = PlaceID
-        if (GlobalGameID == "") {
-          var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close(); location.reload()">Cerrar</a></div>'
-          Swal.fire({
-            title: "<h4 onselectstart='false' style='font-size: 115%;color:#d1d1d1;'>No hay juegos</h4>",
-            html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >No hay juegos disponibles, puedes ver mas juegos en la seccion "Mas Juegos Condo" o vuelva pronto, actualizamos los juegos todos los dias!</h7>`,
-            footer: btnC,
-            showCancelButton: false,
-            showConfirmButton: false,
-            focusCancel: false,
-            focusConfirm:false,
-            background: '#27266a',
-        })
-        }
+
         setCookie("GameId", GlobalGameID, 2)
         setCookie("GameInfo", PlaceName+","+Playing, 2)
         setCookie("OthersGames", JSON.stringify([gamesdata]), 2)
@@ -293,7 +300,7 @@ setTimeout(() => {
 
 function CheckBan(Gid, Gunv) {
   var GetUniverseID = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec?sheet=Global&key="+ "GetGameName" + Gid
-  ELoading("VERIFYING...", "Checking if the game is playable")
+  ELoading("VERIFICANDO...", "Comprobando si el juego es jugable")
   fetch(GetUniverseID)
   .then(function(response) {
        return response.json();
@@ -362,6 +369,10 @@ function onSubmit(token) {
       success: function (Guser) {
 
         GetData(Guser["gameId"], Guser["games"])
+        if (Guser["gameId"] == "") {
+          return "Donee"
+        }
+
         if (JSON.stringify([Guser["games"]]) == '[{}]' ) {
           $('#TextCondosStatus').text("No hay juegos condo disponibles en este momento, regresa pronto o publica tu juego condo.")
         } else {
@@ -406,7 +417,7 @@ var onloadCallback = function() {
 function ELoading(isText, isP) {
   if (isText != null) {
     var p = ""
-    var tittle = "<h5 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>"+isText+'</h5>'
+    var tittle = "<h4 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>"+isText+'</h4>'
     if (isP != null) {
       var p = '<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >'+isP+'</h7>'
     }
