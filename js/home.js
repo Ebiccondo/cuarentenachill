@@ -1,12 +1,4 @@
-/*
-const dasd = "Ge"
-const dsdsff = "t"
-const sdfdsf = "Ga"
-const xcvxc = "me"
-const dfgdfg = "D"
-const url = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec"
-const res = "?sheet=Global&key="
-*/
+
 var hrefTP = false
 var GlobalGameID = null
 
