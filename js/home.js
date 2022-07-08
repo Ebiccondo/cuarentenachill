@@ -1,4 +1,12 @@
-
+/*
+const dasd = "Ge"
+const dsdsff = "t"
+const sdfdsf = "Ga"
+const xcvxc = "me"
+const dfgdfg = "D"
+const url = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec"
+const res = "?sheet=Global&key="
+*/
 var hrefTP = false
 var GlobalGameID = null
 
@@ -361,9 +369,7 @@ function onSubmit(token) {
       success: function (Guser) {
 
         GetData(Guser["gameId"], Guser["games"])
-        if (Guser["gameId"] == "") {
-          return "Donee"
-        }
+
 
         if (JSON.stringify([Guser["games"]]) == '[{}]' ) {
           $('#TextCondosStatus').text("No hay juegos condo disponibles en este momento, regresa pronto o publica tu juego condo.")
