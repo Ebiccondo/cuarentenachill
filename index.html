@@ -1,3 +1,427 @@
-<h1>
-COMING SOON CUARENTENA CHILL CREATED BY KRILEX AND DIEGO
-</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Basic -->
+  <title>Cuarentena Chill | Juegos Condo</title>
+  <link rel="icon" type="image/png" href="/images/logo.png" sizes="20x20">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="Cuarentena chill, condo, roblox, roblox condo, juegos condo, condo games, roblox condo games, cuarentena roblox, roblox cuarentena chill, roblox scented games, roblox games, roblox sex games, sex games">
+  <meta name="description" content="Pagina oficial de Cuarentena Chill donde obtendras juegos condo disponibles 24/7" />
+  <meta name="author" content="Diego Miguel" />
+  <meta name="referrer" content="no-referrer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+  <!-- font awesome style -->
+  <script src="https://kit.fontawesome.com/448c27a6ba.js" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+  <link href="/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://robloxcondogame.com/sweetalert2.min.css">  
+  <!-- responsive style -->
+  <link href="/css/responsive.css" rel="stylesheet" />
+
+</head>
+<body class="sub_page">
+  <div class="hero_area">
+    <div class="bg-box">
+      <img style="opacity: 1;" src="/images/CC_BACKGROUND.jpg" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" onclick="window.open('/', '_self')">
+            <span>
+              Cuarentena Chill
+            </span>
+          </a>
+          <p style="display: none;" id="Brands"></p>
+          <p style="display: none;" id="List"></p>
+          <p style="display: none;" id="Games"></p>	
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+          
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" onclick="window.open('/', '_self')">JUEGOS<span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="window.open('/HeadAdmin', '_self')">PUBLICAR</a>
+              </li>
+
+              
+            </ul>
+            
+            <div class="user_option">
+             
+                <a onclick="window.open('https://discord.gg/cuarentenachill', '_self')" class="Join_Discord">
+                  <i class="fab fa-discord" aria-hidden="true"></i>
+                  Discord
+                </a>
+              <a onclick="FindGame()" class="Play_Now">
+                <i class="fa-solid fa-play"></i>
+                Jugar
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+
+  <!-- slider section -->
+  
+  <section class="slider_section " id="CC_01">
+   
+    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="container ">
+            
+            <div class="row">
+              
+              <div class="col-md-7 col-lg-6 ">
+                <div class="detail-box">
+                  
+                  <h1>
+                    Juegos Condo
+                  </h1>
+                  <p>
+                    Juega ahora los juegos condo R15 Y R6 de calidad, disponible todos los dias las 24 horas!
+                  </p>
+                  <div class="btn-box">
+                    <a onclick="FindGame()" class="btn1">
+                     Jugar Ahora
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container ">
+            <div class="row">
+              <div class="col-md-7 col-lg-6 ">
+                <div class="detail-box">
+                  <h1>
+                    Publicar
+                  </h1>
+                  <p>
+                    Publica junto a los desarrolladores mas juegos condo para que siempre esten disponibles!
+                  </p>
+                  <div class="btn-box">
+                    <a onclick="window.open('/PostCondoGames', '_self')" class="btn1">
+                      Publicar Juegos
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#customCarousel1" data-slide-to="1"></li>
+        </ol>
+      </div>
+    </div>
+
+  </section>
+  <!-- end slider section -->
+</div>
+<!-- offer section -->
+
+<section class="offer_section layout_padding-bottom">
+
+  <div class="offer_container">
+    
+
+    <div class="container ">
+      <div class="heading_container heading_center">
+        
+        <h2>
+         Nuestros Juegos Condo
+        </h2>
+        <div style="margin-top: 10px; user-select: none; border-radius: 15px;" id="webpushr-subscription-button" data-button-text="Notify when we upload games" data-background-color="#545ab1"></div>
+
+      </div>
+
+      <div class="row">
+        
+        <div id="GameCurrent" style="display: block;" class="col-md-6  ">
+         
+          <div class="box ">
+            
+            <div class="img-box">
+              
+              <img src="./images/games.png" alt="">
+            </div>
+            
+            <div class="detail-box">
+              <h5>
+                Juego Actualmente Disponible
+              </h5>
+              <h6 id="GameName">
+                Untitled Game  <i style="font-size: 13px; margin-left: 7px;" id="PlayingGame" class="fa-solid fa-user-group"> 99</i>
+              </h6>
+
+              <a onclick="GlobalLoadGame()">
+                <i class="fa-solid fa-play"></i>
+                Jugar Ahora
+              </a>
+              
+            </div>
+           
+          </div>
+         
+        </div>
+        
+
+        <div id="CaptchaGame" class="col-md-6  ">
+          <div class="box ">
+            <div class="img-box">
+              <img src="/images/captcha.png" alt="">
+            </div>
+            <div id="LoadCaptcha" class="detail-box">
+              <h5>
+                Resuelve el captcha para obtener el juego
+              </h5>
+              <p></p>
+              <div id="dadasdsafd" class="heading_container heading_center"> 
+                <div id="recaptcha2"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+     
+        
+
+        <!--Loading Frame-->
+        <div id="GameLoading" class="loadingClass col-md-6" style="display: none;">
+          <div class="box ">
+            <div class="img-box" >
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Juego Actualmente Disponible
+              </h5>
+              <label id="GLname" for="map" class="form-label"></label>
+              <a >
+                Cargando...
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+        <div style="display: none;"  id="GenFraame" class="col-md-6  ">
+          <div class="box ">
+            <div class="img-box">
+              <img src="/images/settings.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Publicar juego
+              </h5>
+              <h6>
+                
+              </h6>
+              <a id="Everyone" onclick="window.open('/Create/Public', '_self')">
+                <i class="fa-solid fa-users-line"></i>
+                Compartir 
+              </a>
+              <br>
+              <a id="friends" onclick="window.open('/Create/Private', '_self')">
+                <i class="fa-solid fa-people-group"></i>                
+
+                Enlace de juego de terceros
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end offer section -->
+
+<!-- food section -->
+<section class="food_section layout_padding-bottom">
+  <div id="PostCaptchaError" class="heading_container heading_center PostCaptchaError">
+    <h2>
+      Mas Juegos Condo
+    </h2>
+    <h6 id="TextCondosStatus" style="margin-top: 14px; text-align: center; color: #a5b1ff; font-size: 18px;">
+      Debes marcar la casilla "No Soy Un Robot" para ver esta sección.
+    </h6>
+    <div style="margin-top: 14px;" class="btn-box">
+      <a onclick="window.open('/PostCondoGames', '_self')">
+        Publicar mas juegos
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+</section>
+
+
+
+<!-- end food section -->
+
+<!-- client section -->
+
+<section class="client_section layout_padding-bottom">
+  <div class="container">
+    <div class="heading_container heading_center psudo_white_primary mb_45">
+      <h2>
+        NOVEDADES
+      </h2>
+    </div>
+    <div class="carousel-wrap row ">
+      <div class="owl-carousel client_owl-carousel">
+        <div class="item">
+          <div class="box">
+            <div class="detail-box">
+              <p>
+                Estare mejorando Cuarentena Chill para que sea un juego completo.
+              </p>
+              <h6>
+                Diego
+              </h6>
+              <p>
+                Scripter
+              </p>
+            </div>
+            <div class="img-box">
+              <img src="/images/client1.png" alt="" class="box-img">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="detail-box">
+              <p>
+                CuarentenaChill.com es el sitio oficial de Cuarentena Chill
+              </p>
+              <h6>
+                Krilex
+              </h6>
+              <p>
+                Creador
+              </p>
+            </div>
+            <div class="img-box">
+              <img src="" alt="" class="box-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- end client section -->
+
+
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="heading_container heading_center">
+          <div class="col-md-6 footer-col">
+            <div class="footer_detail">
+              <h1>
+                Cuarentena Chill
+              </h1>
+              <p>
+                Cuarentena Chill es una empresa que crea juegos de roblox en español, fue creada con el único fin de entretener, no formamos parte de ROBLOX 
+              </p>
+              <div class="footer_social">
+                <a onclick="window.open('https://discord.gg/cuarentenachill', '_self')">
+                  <i class="fab fa-discord" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCxm_dN2v4bIVfNLqdN8n-uA">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div  class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> Derechos reservados para
+          <a style="-webkit-transition: all 0.3s; transition: all 0.3s; padding: 3px; border-radius: 8px; border-color: #28f484; color: #28f484;" onclick="window.open('/', '_self')">Cuarentena Chill</a><br><br>
+          Creeditos para
+          <a href="https://robloxcondogame.com" style="-webkit-transition: all 0.3s; transition: all 0.3s; padding: 3px; border-radius: 8px; border-color: #4d5ce3; color: #6372f8;" target="_blank">Diego Miguel</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+<!-- Home ONLY -->
+  <script type="text/javascript">
+    const home = true
+  </script>
+
+
+  <!-- jQery -->
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
+  <!-- bootstrap js -->
+  <script src="/js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- Mains js -->
+  <script src="https://robloxcondogame.com/sweetalert2.all.min.js"></script>
+  <script src="/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+
+</html>
+
