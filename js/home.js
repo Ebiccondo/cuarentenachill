@@ -1,1 +1,519 @@
-var _0xe950=["\x73\x68\x69\x66\x74","\x70\x75\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x70\x65\x6E","","\x23\x32\x37\x32\x36\x36\x61","\x64\x69\x73\x70\x6C\x61\x79","\x23\x47\x61\x6D\x65\x4C\x6F\x61\x64\x69\x6E\x67","\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E","\x2C","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x63\x73\x73","\x6E\x6F\x6E\x65","\x62\x6C\x6F\x63\x6B","\x72\x65\x73\x70\x6F\x6E\x73\x65","\x6A\x73\x6F\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x63\x72\x69\x70\x74\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x6D\x61\x63\x72\x6F\x73\x2F\x73\x2F\x41\x4B\x66\x79\x63\x62\x78\x33\x67\x59\x69\x31\x72\x53\x74\x35\x6D\x58\x5A\x34\x30\x77\x33\x66\x61\x35\x75\x76\x61\x72\x6F\x58\x30\x56\x33\x6E\x5F\x78\x4E\x44\x37\x51\x6E\x76\x7A\x6D\x77\x4B\x39\x72\x43\x53\x41\x48\x4D\x2F\x65\x78\x65\x63\x3F\x73\x68\x65\x65\x74\x3D\x47\x6C\x6F\x62\x61\x6C\x26\x6B\x65\x79\x3D\x47\x65\x74\x47\x61\x6D\x65\x44","\x47\x61\x6D\x65\x49\x64","\x41\x76\x61\x74\x61\x72\x54\x79\x70\x65","\x22\x3E\x0A\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x6F\x78\x22\x3E\x0A\x20\x20\x20\x20\x3C\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x69\x6D\x67\x2D\x62\x6F\x78\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x6D\x67\x20\x73\x72\x63\x3D\x22\x2F\x69\x6D\x61\x67\x65\x73\x2F\x67\x61\x6D\x65\x73\x78\x32\x2E\x70\x6E\x67\x22\x20\x61\x6C\x74\x3D\x22\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x65\x74\x61\x69\x6C\x2D\x62\x6F\x78\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x35\x20\x69\x64\x3D\x22\x47\x6E\x61\x6D\x65\x45\x66\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20","\x2C\x20","\x69\x6E\x64\x65\x78\x4F\x66","\x72\x65\x63\x61\x70\x74\x63\x68\x61\x32","\x67\x61\x6D\x65\x49\x64","\x5F\x62\x6C\x61\x6E\x6B","\x61\x70\x70\x65\x6E\x64","\x29\x22\x20\x69\x64\x3D\x22\x50\x6C\x61\x79\x50\x6F\x73\x74\x47\x61\x6D\x65\x22\x3E\x20\x3C\x69\x20\x73\x74\x79\x6C\x65\x3D\x22\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74\x3A\x20\x31\x30\x70\x78\x3B\x22\x20\x69\x64\x3D\x22\x50\x6F\x69\x6E\x74\x73\x73\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x2D\x73\x6F\x6C\x69\x64\x20\x66\x61\x2D\x70\x6C\x61\x79\x22\x3E\x3C\x2F\x69\x3E\x20\x4A\x55\x47\x41\x52\x3C\x2F\x61\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x3C\x2F\x64\x69\x76\x3E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x75\x61\x72\x65\x6E\x74\x65\x6E\x61\x63\x68\x69\x6C\x6C\x2E\x6F\x6E\x72\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F\x42\x61\x6E\x43\x6F\x6E\x64\x6F\x2F","\x63\x6C\x69\x63\x6B","\x63\x68\x61\x72\x41\x74","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x50\x4F\x53\x54","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6C\x2D\x73\x6D\x2D\x36\x20\x63\x6F\x6C\x2D\x6C\x67\x2D\x34\x20\x61\x6C\x6C\x20","\x73\x65\x74\x54\x69\x6D\x65","\x39\x34\x39\x32\x32\x32\x76\x51\x4E\x6F\x45\x4B","\x3B\x70\x61\x74\x68\x3D\x2F","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6C\x6F\x61\x64\x69\x6E\x67\x69\x6F\x2D\x73\x70\x69\x6E\x6E\x65\x72\x2D\x65\x63\x6C\x69\x70\x73\x65\x2D\x36\x76\x64\x6D\x7A\x35\x34\x63\x64\x73\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6C\x64\x69\x6F\x2D\x65\x72\x6D\x75\x67\x6F\x6D\x79\x66\x62\x22\x3E\x3C\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x4E\x6F\x20\x68\x61\x79\x20\x6A\x75\x65\x67\x6F\x73\x20\x63\x6F\x6E\x64\x6F\x20\x64\x69\x73\x70\x6F\x6E\x69\x62\x6C\x65\x73\x20\x65\x6E\x20\x65\x73\x74\x65\x20\x6D\x6F\x6D\x65\x6E\x74\x6F\x2C\x20\x72\x65\x67\x72\x65\x73\x61\x20\x70\x72\x6F\x6E\x74\x6F\x20\x6F\x20\x70\x75\x62\x6C\x69\x63\x61\x20\x74\x75\x20\x6A\x75\x65\x67\x6F\x20\x63\x6F\x6E\x64\x6F\x2E","\x3C\x2F\x69\x3E","\x61\x6E\x69\x6D\x61\x74\x69\x6F\x6E","\x72\x65\x6D\x6F\x76\x65","\x6C\x6F\x63\x61\x6C\x53\x74\x6F\x72\x61\x67\x65","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72","\x31\x30\x32\x31\x39\x39\x33\x54\x54\x76\x50\x5A\x63","\x23\x72\x65\x63\x61\x70\x74\x63\x68\x61\x32","\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x68\x35\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20","\x31\x32\x36\x36\x36\x37\x36\x4A\x61\x4F\x66\x76\x6F","\x56\x45\x52\x49\x46\x49\x43\x41\x4E\x44\x4F\x2E\x2E\x2E","\x34\x30\x32\x37\x38\x30\x59\x42\x4E\x50\x46\x65","\x35\x73\x20\x6C\x6F\x61\x64\x69\x6E\x67\x31\x20\x65\x61\x73\x65\x2D\x69\x6E\x2D\x6F\x75\x74\x20\x69\x6E\x66\x69\x6E\x69\x74\x65","\x3C\x68\x34\x20\x6F\x6E\x73\x65\x6C\x65\x63\x74\x73\x74\x61\x72\x74\x3D\x27\x66\x61\x6C\x73\x65\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x31\x35\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x32\x35\x35\x2C\x20\x32\x35\x35\x29\x3B\x27\x3E","\x67\x65\x74\x54\x69\x6D\x65","\x74\x68\x65\x6E","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x69\x73\x6F\x74\x6F\x70\x65","\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x70\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6F\x70\x74\x69\x6F\x6E\x73\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x68\x36\x20\x73\x74\x79\x6C\x65\x3D\x22\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x6E\x6F\x6E\x65\x3B\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x2D\x73\x6F\x6C\x69\x64\x20\x66\x61\x2D\x75\x73\x65\x72\x2D\x67\x72\x6F\x75\x70\x22\x3E\x3C\x2F\x69\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x39\x39\x2B\x20\x50\x4C\x41\x59\x49\x4E\x47\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x68\x36\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x3C\x61\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x43\x68\x65\x63\x6B\x42\x61\x6E\x28","\x72\x65\x6E\x64\x65\x72","\x63\x6C\x65\x61\x72","\x36\x4C\x63\x77\x72\x39\x49\x67\x41\x41\x41\x41\x41\x44\x55\x4E\x5A\x42\x61\x2D\x46\x6C\x66\x66\x55\x75\x43\x6B\x49\x32\x4F\x6E\x6B\x78\x34\x50\x48\x34\x31\x38","\x6B\x65\x79\x73","\x23\x54\x65\x78\x74\x43\x6F\x6E\x64\x6F\x73\x53\x74\x61\x74\x75\x73","\x70\x61\x72\x73\x65","\x47\x61\x6D\x65\x49\x6E\x66\x6F","\x3C\x2F\x68\x37\x3E","\x2E\x66\x69\x6C\x74\x65\x72\x73\x5F\x6D\x65\x6E\x75\x20\x6C\x69","\x3C\x68\x37\x20\x69\x64\x3D\x22\x73\x77\x70\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x30\x30\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x23\x37\x31\x38\x64\x66\x66\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x2D\x62\x6F\x74\x74\x6F\x6D\x3A\x20\x31\x35\x70\x78\x3B\x22\x20\x3E\x4E\x6F\x20\x68\x61\x79\x20\x6A\x75\x65\x67\x6F\x73\x20\x64\x69\x73\x70\x6F\x6E\x69\x62\x6C\x65\x73\x2C\x20\x70\x75\x65\x64\x65\x73\x20\x76\x65\x72\x20\x6D\x61\x73\x20\x6A\x75\x65\x67\x6F\x73\x20\x65\x6E\x20\x6C\x61\x20\x73\x65\x63\x63\x69\x6F\x6E\x20\x22\x4D\x61\x73\x20\x4A\x75\x65\x67\x6F\x73\x20\x43\x6F\x6E\x64\x6F\x22\x20\x6F\x20\x76\x75\x65\x6C\x76\x61\x20\x70\x72\x6F\x6E\x74\x6F\x2C\x20\x61\x63\x74\x75\x61\x6C\x69\x7A\x61\x6D\x6F\x73\x20\x6C\x6F\x73\x20\x6A\x75\x65\x67\x6F\x73\x20\x74\x6F\x64\x6F\x73\x20\x6C\x6F\x73\x20\x64\x69\x61\x73\x21\x3C\x2F\x68\x37\x3E","\x5B\x7B\x7D\x5D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x6F\x62\x6C\x6F\x78\x2E\x63\x6F\x6D\x2F\x67\x61\x6D\x65\x73\x2F","\x63\x6F\x6C\x6F\x72","\x5F\x73\x65\x6C\x66","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x75\x61\x72\x65\x6E\x74\x65\x6E\x61\x63\x68\x69\x6C\x6C\x2E\x6F\x6E\x72\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F","\x3C\x68\x34\x20\x6F\x6E\x73\x65\x6C\x65\x63\x74\x73\x74\x61\x72\x74\x3D\x27\x66\x61\x6C\x73\x65\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x31\x35\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x23\x64\x31\x64\x31\x64\x31\x3B\x27\x3E\x4E\x6F\x20\x68\x61\x79\x20\x6A\x75\x65\x67\x6F\x73\x3C\x2F\x68\x34\x3E","\x61\x64\x64\x43\x6C\x61\x73\x73","\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6C\x69\x70","\x74\x72\x61\x6E\x73\x70\x61\x72\x65\x6E\x74","\x23\x66\x66\x66\x66\x66\x66","\x3C\x61\x20\x69\x64\x3D\x22\x63\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x53\x77\x61\x6C\x2E\x63\x6C\x6F\x73\x65\x28\x29\x22\x3E\x43\x65\x72\x72\x61\x72\x3C\x2F\x61\x3E","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x72\x65\x63\x61\x70\x74\x63\x68\x61\x32\x22\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x2E\x50\x6F\x73\x74\x43\x61\x70\x74\x63\x68\x61\x45\x72\x72\x6F\x72","\x74\x6F\x55\x54\x43\x53\x74\x72\x69\x6E\x67","\x4F\x74\x68\x65\x72\x73\x47\x61\x6D\x65\x73","\x64\x61\x72\x6B","\x42\x6E\x47\x6D\x4E\x54\x6F\x6B\x65\x6E","\x33\x31\x37\x33\x33\x34\x36\x47\x6D\x52\x76\x4D\x74","\x3C\x69\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x33\x70\x78\x3B\x20\x6D\x61\x72\x67\x69\x6E\x2D\x6C\x65\x66\x74\x3A\x20\x37\x70\x78\x3B\x22\x20\x69\x64\x3D\x22\x50\x6C\x61\x79\x69\x6E\x67\x47\x61\x6D\x65\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x2D\x73\x6F\x6C\x69\x64\x20\x66\x61\x2D\x75\x73\x65\x72\x2D\x67\x72\x6F\x75\x70\x22\x3E\x20","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x20\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x65\x6E\x74\x65\x72\x22\x3E\x20\x3C\x61\x20\x69\x64\x3D\x22\x63\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x73\x77\x61\x6C\x2E\x63\x6C\x6F\x73\x65\x28\x29\x3B\x20\x6C\x6F\x63\x61\x74\x69\x6F\x6E\x2E\x72\x65\x6C\x6F\x61\x64\x28\x29\x22\x3E\x43\x65\x72\x72\x61\x72\x3C\x2F\x61\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x68\x37\x20\x69\x64\x3D\x22\x73\x77\x70\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x30\x30\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x23\x37\x31\x38\x64\x66\x66\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x2D\x62\x6F\x74\x74\x6F\x6D\x3A\x20\x31\x35\x70\x78\x3B\x22\x20\x3E","\x33\x4F\x4D\x5A\x44\x51\x47","\x74\x65\x78\x74","\x73\x77\x61\x6C\x2D\x77\x69\x64\x65","\x23\x43\x61\x70\x74\x63\x68\x61\x47\x61\x6D\x65","\x72\x61\x6E\x64\x6F\x6D","\x6F\x6E\x74\x2D\x73\x69\x7A\x65","\x23\x47\x61\x6D\x65\x43\x75\x72\x72\x65\x6E\x74","\x47\x65\x74\x47\x61\x6D\x65\x4E\x61\x6D\x65","\x38\x35\x31\x39\x39\x32\x30\x53\x70\x43\x53\x76\x56","\x55\x6E\x69\x76\x65\x72\x73\x65\x49\x64","\x32\x32\x70\x78","\x70\x6C\x61\x79\x69\x6E\x67","\x61\x74\x74\x72","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x2E\x67\x72\x69\x64","\x2E\x61\x6C\x6C","\x64\x61\x74\x61\x2D\x66\x69\x6C\x74\x65\x72","\x23\x77\x65\x62\x70\x75\x73\x68\x72\x2D\x73\x75\x62\x73\x63\x72\x69\x62\x65\x72\x2D\x63\x6F\x75\x6E\x74","\x43\x6F\x6D\x70\x72\x6F\x62\x61\x6E\x64\x6F\x20\x73\x69\x20\x65\x6C\x20\x6A\x75\x65\x67\x6F\x20\x65\x73\x20\x6A\x75\x67\x61\x62\x6C\x65","\x6C\x65\x6E\x67\x74\x68","\x3C\x68\x35\x20\x6F\x6E\x73\x65\x6C\x65\x63\x74\x73\x74\x61\x72\x74\x3D\x27\x66\x61\x6C\x73\x65\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x31\x35\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x32\x35\x35\x2C\x20\x32\x35\x35\x29\x3B\x27\x3E\x4A\x75\x65\x67\x6F\x20\x4E\x6F\x20\x44\x69\x73\x70\x6F\x6E\x69\x62\x6C\x65\x3C\x2F\x68\x35\x3E","\x0A\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x69\x64\x3D\x27\x4F\x74\x68\x65\x72\x73\x47\x61\x6D\x65\x73\x27\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x22\x3E\x0A\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x20\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x65\x6E\x74\x65\x72\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x68\x32\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x4D\x61\x73\x20\x4A\x75\x65\x67\x6F\x73\x20\x43\x6F\x6E\x64\x6F\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x68\x32\x3E\x0A\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x0A\x20\x20\x20\x20\x3C\x75\x6C\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x69\x6C\x74\x65\x72\x73\x5F\x6D\x65\x6E\x75\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x61\x63\x74\x69\x76\x65\x22\x20\x64\x61\x74\x61\x2D\x66\x69\x6C\x74\x65\x72\x3D\x22\x2A\x22\x3E\x41\x6C\x6C\x3C\x2F\x6C\x69\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x6C\x69\x20\x64\x61\x74\x61\x2D\x66\x69\x6C\x74\x65\x72\x3D\x22\x2E\x52\x31\x35\x22\x3E\x52\x31\x35\x3C\x2F\x6C\x69\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x6C\x69\x20\x64\x61\x74\x61\x2D\x66\x69\x6C\x74\x65\x72\x3D\x22\x2E\x52\x36\x22\x3E\x52\x36\x3C\x2F\x6C\x69\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x6C\x69\x20\x64\x61\x74\x61\x2D\x66\x69\x6C\x74\x65\x72\x3D\x22\x2E\x4F\x74\x68\x65\x72\x73\x22\x3E\x4F\x74\x68\x65\x72\x73\x3C\x2F\x6C\x69\x3E\x0A\x20\x20\x20\x20\x3C\x2F\x75\x6C\x3E\x0A\x20\x20\x20\x20\x0A\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x69\x6C\x74\x65\x72\x73\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x4D\x61\x69\x6E\x50\x6F\x73\x74\x47\x61\x6D\x65\x73\x4C\x69\x73\x74\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x6F\x77\x20\x67\x72\x69\x64\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20","\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x72\x65\x63\x61\x70\x74\x63\x68\x61\x31\x22\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x2E\x66\x6F\x6F\x64\x5F\x73\x65\x63\x74\x69\x6F\x6E","\x61\x6A\x61\x78","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x72\x6F\x2E\x62\x6C\x6F\x78\x2E\x63\x6F\x6D\x2F\x45\x62\x68\x35\x3F\x70\x69\x64\x3D\x73\x68\x61\x72\x65\x26\x69\x73\x5F\x72\x65\x74\x61\x72\x67\x65\x74\x69\x6E\x67\x3D\x74\x72\x75\x65\x26\x61\x66\x5F\x64\x70\x3D\x72\x6F\x62\x6C\x6F\x78\x25\x33\x41\x25\x32\x46\x25\x32\x46\x6E\x61\x76\x69\x67\x61\x74\x69\x6F\x6E\x25\x32\x46\x67\x61\x6D\x65\x5F\x64\x65\x74\x61\x69\x6C\x73\x25\x33\x46\x67\x61\x6D\x65\x49\x64\x25\x33\x44","\x4F\x63\x75\x72\x72\x69\x6F\x20\x75\x6E\x20\x65\x72\x72\x6F\x72\x20\x63\x6F\x6E\x20\x65\x6C\x20\x63\x61\x70\x74\x63\x68\x61","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x3C\x61\x20\x69\x64\x3D\x22\x63\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x53\x77\x61\x6C\x2E\x63\x6C\x6F\x73\x65\x28\x29\x22\x3E\x43\x6C\x6F\x73\x65\x3C\x2F\x61\x3E","\x44\x65\x73\x63","\x31\x34\x34\x36\x37\x44\x55\x6F\x67\x77\x73","\x62\x6F\x64\x79","\x23\x4C\x6F\x61\x64\x43\x61\x70\x74\x63\x68\x61","\x23\x72\x65\x63\x61\x70\x74\x63\x68\x61\x31","\x67\x61\x6D\x65\x73","\x23\x47\x61\x6D\x65\x4E\x61\x6D\x65","\x68\x69\x64\x65\x4C\x6F\x61\x64\x69\x6E\x67","\x61\x63\x74\x69\x76\x65","\x2D\x77\x65\x62\x6B\x69\x74\x2D\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6C\x69\x70","\x72\x65\x61\x64\x79","\x5B\x20\x43\x6F\x6E\x74\x65\x6E\x74\x20\x44\x65\x6C\x65\x74\x65\x64\x20\x5D","\x73\x70\x6C\x69\x74","\x3C\x2F\x68\x34\x3E","\x6E\x61\x6D\x65","\x73\x65\x74\x49\x74\x65\x6D","\x63\x6F\x6F\x6B\x69\x65","\x4E\x61\x6D\x65","\x47\x61\x6D\x65\x4E\x61\x6D\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x73\x63\x72\x69\x70\x74\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x6D\x61\x63\x72\x6F\x73\x2F\x73\x2F\x41\x4B\x66\x79\x63\x62\x78\x33\x67\x59\x69\x31\x72\x53\x74\x35\x6D\x58\x5A\x34\x30\x77\x33\x66\x61\x35\x75\x76\x61\x72\x6F\x58\x30\x56\x33\x6E\x5F\x78\x4E\x44\x37\x51\x6E\x76\x7A\x6D\x77\x4B\x39\x72\x43\x53\x41\x48\x4D\x2F\x65\x78\x65\x63\x3F\x73\x68\x65\x65\x74\x3D\x47\x6C\x6F\x62\x61\x6C\x26\x6B\x65\x79\x3D","\x66\x69\x72\x65","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6A\x73\x6F\x6E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x20\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x65\x6E\x74\x65\x72\x22\x3E\x20\x3C\x61\x20\x69\x64\x3D\x22\x63\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x73\x77\x61\x6C\x2E\x63\x6C\x6F\x73\x65\x28\x29\x3B\x22\x3E\x43\x65\x72\x72\x61\x72\x3C\x2F\x61\x3E\x3C\x2F\x64\x69\x76\x3E","\x4E\x6F\x55\x73\x65\x72\x4E\x61\x6D\x65","\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x20\x20\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x2D\x62\x6F\x78\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x3C\x61\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x77\x69\x6E\x64\x6F\x77\x2E\x6F\x70\x65\x6E\x28\x27\x2F\x50\x6F\x73\x74\x43\x6F\x6E\x64\x6F\x47\x61\x6D\x65\x73\x27\x2C\x20\x27\x5F\x73\x65\x6C\x66\x27\x29\x22\x3E\x0A\x20\x20\x20\x20\x20\x20\x20\x20\x50\x6F\x73\x74\x20\x43\x6F\x6E\x64\x6F\x20\x47\x61\x6D\x65\x0A\x20\x20\x20\x20\x20\x20\x3C\x2F\x61\x3E\x0A\x20\x20\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x20\x20\x3C\x2F\x64\x69\x76\x3E\x0A\x0A","\x3C\x61\x20\x69\x64\x3D\x22\x63\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x22\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x22\x43\x6C\x6F\x73\x65\x50\x6F\x70\x75\x70\x28\x29\x22\x3E\x43\x65\x72\x72\x61\x72\x3C\x2F\x61\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x20\x68\x65\x61\x64\x69\x6E\x67\x5F\x63\x65\x6E\x74\x65\x72\x22\x3E","\x3C\x68\x34\x20\x6F\x6E\x73\x65\x6C\x65\x63\x74\x73\x74\x61\x72\x74\x3D\x27\x66\x61\x6C\x73\x65\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x31\x35\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x23\x64\x31\x64\x31\x64\x31\x3B\x27\x3E\x52\x65\x73\x75\x65\x6C\x76\x65\x20\x65\x6C\x20\x63\x61\x70\x74\x63\x68\x61\x3C\x2F\x68\x34\x3E","\x42\x75\x73\x63\x61\x6E\x64\x6F\x20\x6A\x75\x65\x67\x6F\x20\x65\x6E\x20\x65\x73\x70\x61\xF1\x6F\x6C\x2E\x2E\x2E","\x3C\x68\x37\x20\x69\x64\x3D\x22\x73\x77\x70\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x20\x31\x30\x30\x25\x3B\x63\x6F\x6C\x6F\x72\x3A\x23\x37\x31\x38\x64\x66\x66\x3B\x20\x70\x61\x64\x64\x69\x6E\x67\x2D\x62\x6F\x74\x74\x6F\x6D\x3A\x20\x31\x35\x70\x78\x3B\x22\x20\x3E\x45\x6C\x20\x6A\x75\x65\x67\x6F\x20\x68\x61\x20\x73\x69\x64\x6F\x20\x65\x6C\x69\x6D\x69\x6E\x61\x64\x6F\x20\x70\x6F\x73\x69\x62\x6C\x65\x6D\x65\x6E\x74\x65\x20\x70\x6F\x72\x20\x6C\x61\x73\x20\x73\x69\x67\x75\x69\x65\x6E\x74\x65\x73\x20\x72\x61\x7A\x6F\x6E\x65\x73\x20\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x45\x72\x72\x6F\x72\x55\x49\x22\x3E\x45\x6C\x20\x6A\x75\x65\x67\x6F\x20\x6E\x6F\x20\x65\x73\x20\x75\x6E\x20\x6A\x75\x65\x67\x6F\x20\x63\x6F\x6E\x64\x6F\x3C\x2F\x64\x69\x76\x3E\x20\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x45\x72\x72\x6F\x72\x55\x49\x22\x3E\x52\x6F\x62\x6C\x6F\x78\x20\x62\x61\x6E\x65\x6F\x20\x65\x6C\x20\x6A\x75\x65\x67\x6F\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x69\x64\x3D\x22\x45\x72\x72\x6F\x72\x55\x49\x22\x3E\x45\x6C\x20\x6A\x75\x65\x67\x6F\x20\x65\x73\x20\x66\x61\x6C\x73\x6F\x20\x79\x20\x66\x75\x65\x20\x72\x65\x6D\x6F\x76\x69\x64\x6F\x20\x64\x65\x20\x6C\x61\x20\x70\x61\x67\x69\x6E\x61\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x68\x37\x3E","\x76\x69\x73\x69\x74\x73","\x26\x61\x66\x5F\x77\x65\x62\x5F\x64\x70\x3D\x68\x74\x74\x70\x73\x25\x33\x41\x25\x32\x46\x25\x32\x46\x77\x77\x77\x2E\x72\x6F\x62\x6C\x6F\x78\x2E\x63\x6F\x6D\x25\x32\x46\x67\x61\x6D\x65\x73\x25\x32\x46","\x65\x78\x70\x69\x72\x65\x73\x3D","\x3D","\x3B","\x20","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x75\x61\x72\x65\x6E\x74\x65\x6E\x61\x63\x68\x69\x6C\x6C\x2E\x6F\x6E\x72\x65\x6E\x64\x65\x72\x2E\x63\x6F\x6D\x2F\x50\x6F\x73\x74\x4D\x61\x69\x6E\x47\x61\x6D\x65\x73\x2F","\x7B\x7D","\x3C\x73\x63\x72\x69\x70\x74\x20\x73\x72\x63\x3D\x22\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x67\x6F\x6F\x67\x6C\x65\x2E\x63\x6F\x6D\x2F\x72\x65\x63\x61\x70\x74\x63\x68\x61\x2F\x61\x70\x69\x2E\x6A\x73\x3F\x6F\x6E\x6C\x6F\x61\x64\x3D\x6F\x6E\x6C\x6F\x61\x64\x43\x61\x6C\x6C\x62\x61\x63\x6B\x26\x72\x65\x6E\x64\x65\x72\x3D\x65\x78\x70\x6C\x69\x63\x69\x74\x22\x20\x61\x73\x79\x6E\x63\x20\x64\x65\x66\x65\x72\x3E\x3C\x2F\x73\x63\x72\x69\x70\x74\x3E","\x67\x65\x74\x49\x74\x65\x6D"];function _0x3cb7(_0xc7d7x2,_0xc7d7x3){var _0xc7d7x4=_0x5d4b();return _0x3cb7= function(_0xc7d7x5,_0xc7d7x6){_0xc7d7x5= _0xc7d7x5- 0x1a7;var _0xc7d7x7=_0xc7d7x4[_0xc7d7x5];return _0xc7d7x7},_0x3cb7(_0xc7d7x2,_0xc7d7x3)}var _0x4f0e8a=_0x3cb7;(function(_0xc7d7x9,_0xc7d7xa){var _0xc7d7xb=_0x3cb7,_0xc7d7xc=_0xc7d7x9();while(!![]){try{var _0xc7d7xd=parseInt(_0xc7d7xb(0x207))/ 0x1+ -parseInt(_0xc7d7xb(0x1ad))/ 0x2 * (parseInt(_0xc7d7xb(0x1e5))/ 0x3)+ parseInt(_0xc7d7xb(0x1ba))/ 0x4+ parseInt(_0xc7d7xb(0x1bc))/ 0x5+ -parseInt(_0xc7d7xb(0x1e1))/ 0x6+ -parseInt(_0xc7d7xb(0x1b6))/ 0x7+ parseInt(_0xc7d7xb(0x1ee))/ 0x8;if(_0xc7d7xd=== _0xc7d7xa){break}else {_0xc7d7xc[_0xe950[1]](_0xc7d7xc[_0xe950[0]]())}}catch(_0x13df27){_0xc7d7xc[_0xe950[1]](_0xc7d7xc[_0xe950[0]]())}}}(_0x5d4b,0x4fe0d));var hrefTP=![],GlobalGameID=null,dd=![];function GetData(_0xc7d7x12,_0xc7d7x13){var _0xc7d7x14=_0x3cb7;swal[_0xe950[2]](),setTimeout(()=>{var _0xc7d7x15=_0x3cb7;hrefTP==  !![]&& (dd==  ![]&& window[_0xe950[3]](_0xc7d7x15(0x1d1)+ _0xc7d7x12,_0xc7d7x15(0x1d3)))},0x1004);if(_0xc7d7x12== _0xe950[4]){dd=  !![];var _0xc7d7x16=_0xc7d7x14(0x221);return Swal[_0xc7d7x14(0x21f)]({'\x74\x69\x74\x6C\x65':_0xc7d7x14(0x1d5),'\x68\x74\x6D\x6C':_0xc7d7x14(0x1ce),'\x66\x6F\x6F\x74\x65\x72':_0xc7d7x16,'\x73\x68\x6F\x77\x43\x61\x6E\x63\x65\x6C\x42\x75\x74\x74\x6F\x6E':![],'\x73\x68\x6F\x77\x43\x6F\x6E\x66\x69\x72\x6D\x42\x75\x74\x74\x6F\x6E':![],'\x66\x6F\x63\x75\x73\x43\x61\x6E\x63\x65\x6C':![],'\x66\x6F\x63\x75\x73\x43\x6F\x6E\x66\x69\x72\x6D':![],'\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64':_0xe950[5]})};$(_0xc7d7x14(0x1e8))[_0xc7d7x14(0x1ec)](_0xe950[6],_0xc7d7x14(0x214)),$(_0xe950[7])[_0xc7d7x14(0x1ec)](_0xc7d7x14(0x21e),_0xc7d7x14(0x1cf));var _0xc7d7x17=_0xc7d7x14(0x21d)+ _0xc7d7x14(0x1ed)+ _0xc7d7x12;fetch(_0xc7d7x17)[_0xc7d7x14(0x1c0)](function(_0xc7d7x1d){var _0xc7d7x1e=_0xc7d7x14;return _0xc7d7x1d[_0xc7d7x1e(0x20d)]()})[_0xc7d7x14(0x1c0)](function(_0xc7d7x18){var _0xc7d7x19=_0xc7d7x14,_0xc7d7x1a=_0xc7d7x18[_0xc7d7x19(0x209)][0x0][_0xc7d7x19(0x217)],_0xc7d7x1b=_0xc7d7x18[_0xc7d7x19(0x209)][0x0][_0xe950[8]],_0xc7d7x1c=_0xc7d7x18[_0xc7d7x19(0x209)][0x0][_0xc7d7x19(0x1f1)];$(_0xc7d7x19(0x20e))[_0xc7d7x19(0x1e6)](_0xc7d7x1a),_0xc7d7x1c>= 0xa&& $(_0xc7d7x19(0x20e))[_0xc7d7x19(0x226)](_0xc7d7x19(0x1e2)+ _0xc7d7x1c[_0xc7d7x19(0x1a9)]()+ _0xc7d7x19(0x1b1)),GlobalGameID= _0xc7d7x12,setCookie(_0xc7d7x19(0x1b7),GlobalGameID,0x2),setCookie(_0xc7d7x19(0x1cb),_0xc7d7x1a+ _0xe950[9]+ _0xc7d7x1c,0x2),setCookie(_0xc7d7x19(0x1de),JSON[_0xe950[10]]([_0xc7d7x13]),0x2),$(_0xc7d7x19(0x1a8))[_0xe950[11]](_0xc7d7x19(0x21e),_0xc7d7x19(0x214)),$(_0xc7d7x19(0x1e8))[_0xe950[11]](_0xc7d7x19(0x21e),_0xc7d7x19(0x214)),$(_0xc7d7x19(0x1eb))[_0xc7d7x19(0x1ec)](_0xe950[6],_0xc7d7x19(0x1cf))})}function TEST(){var _0xc7d7x20=_0x3cb7;$(_0xc7d7x20(0x1e8))[_0xc7d7x20(0x1ec)](_0xc7d7x20(0x21e),_0xe950[12]),$(_0xe950[7])[_0xc7d7x20(0x1ec)](_0xc7d7x20(0x21e),_0xe950[13]),fetch(_0xe950[16])[_0xc7d7x20(0x1c0)](function(_0xc7d7x2b){var _0xc7d7x2c=_0xc7d7x20;return _0xc7d7x2b[_0xc7d7x2c(0x20d)]()})[_0xc7d7x20(0x1c0)](function(_0xc7d7x21){var _0xc7d7x22=_0xc7d7x20,_0xc7d7x23=_0xc7d7x21[_0xe950[14]],_0xc7d7x24=_0xc7d7x22(0x21d)+ _0xc7d7x22(0x1ed)+ _0xc7d7x23;fetch(_0xc7d7x24)[_0xc7d7x22(0x1c0)](function(_0xc7d7x2a){return _0xc7d7x2a[_0xe950[15]]()})[_0xc7d7x22(0x1c0)](function(_0xc7d7x25){var _0xc7d7x26=_0xc7d7x22,_0xc7d7x27=_0xc7d7x25[_0xe950[14]][0x0][_0xc7d7x26(0x217)],_0xc7d7x28=_0xc7d7x25[_0xc7d7x26(0x209)][0x0][_0xc7d7x26(0x1fd)],_0xc7d7x29=_0xc7d7x25[_0xe950[14]][0x0][_0xc7d7x26(0x1f1)];$(_0xc7d7x26(0x20e))[_0xc7d7x26(0x1e6)](_0xc7d7x27),_0xc7d7x29>= 0xa&& $(_0xc7d7x26(0x20e))[_0xc7d7x26(0x226)](_0xc7d7x26(0x1e2)+ _0xc7d7x29[_0xc7d7x26(0x1a9)]()+ _0xc7d7x26(0x1b1)),GlobalGameID= _0xc7d7x23,setCookie(_0xc7d7x26(0x1b7),GlobalGameID,0x2),setCookie(_0xc7d7x26(0x1cb),_0xc7d7x27+ _0xe950[9]+ _0xc7d7x29,0x2),$(_0xc7d7x26(0x1a8))[_0xc7d7x26(0x1ec)](_0xe950[6],_0xc7d7x26(0x214)),$(_0xc7d7x26(0x1e8))[_0xe950[11]](_0xc7d7x26(0x21e),_0xc7d7x26(0x214)),$(_0xc7d7x26(0x1eb))[_0xc7d7x26(0x1ec)](_0xe950[6],_0xc7d7x26(0x1cf))})})}LoadGame();function GetGameOnly(_0xc7d7x2e){var _0xc7d7x2f=_0x3cb7;const _0xc7d7x30=_0xc7d7x2e[_0xc7d7x2f(0x21b)],_0xc7d7x31=_0xc7d7x2e[_0xc7d7x2f(0x206)],_0xc7d7x32=_0xc7d7x2e[_0xe950[17]],_0xc7d7x33=_0xc7d7x2e[_0xc7d7x2f(0x1ef)],_0xc7d7x34=_0xc7d7x2e[_0xe950[18]],_0xc7d7x35=_0xc7d7x2f(0x1ab)+ _0xc7d7x34+ _0xe950[19]+ _0xc7d7x30+ _0xc7d7x2f(0x1b9)+ _0xc7d7x31+ _0xc7d7x2f(0x1c3)+ _0xc7d7x32+ _0xe950[20]+ _0xc7d7x33+ _0xc7d7x2f(0x227);return _0xc7d7x35}function _0x5d4b(){var _0xc7d7x37=[_0xe950[21],_0xe950[22],_0xe950[23],_0xe950[24],_0xe950[25],_0xe950[26],_0xe950[10],_0xe950[27],_0xe950[28],_0xe950[29],_0xe950[7],_0xe950[30],_0xe950[31],_0xe950[32],_0xe950[33],_0xe950[34],_0xe950[35],_0xe950[36],_0xe950[37],_0xe950[38],_0xe950[39],_0xe950[40],_0xe950[41],_0xe950[42],_0xe950[43],_0xe950[17],_0xe950[44],_0xe950[45],_0xe950[46],_0xe950[47],_0xe950[48],_0xe950[49],_0xe950[50],_0xe950[51],_0xe950[52],_0xe950[53],_0xe950[54],_0xe950[55],_0xe950[2],_0xe950[56],_0xe950[57],_0xe950[58],_0xe950[59],_0xe950[60],_0xe950[61],_0xe950[62],_0xe950[63],_0xe950[64],_0xe950[65],_0xe950[13],_0xe950[66],_0xe950[67],_0xe950[68],_0xe950[69],_0xe950[70],_0xe950[71],_0xe950[72],_0xe950[73],_0xe950[74],_0xe950[75],_0xe950[76],_0xe950[77],_0xe950[78],_0xe950[79],_0xe950[80],_0xe950[81],_0xe950[82],_0xe950[83],_0xe950[84],_0xe950[85],_0xe950[86],_0xe950[87],_0xe950[88],_0xe950[89],_0xe950[90],_0xe950[91],_0xe950[92],_0xe950[93],_0xe950[11],_0xe950[94],_0xe950[95],_0xe950[96],_0xe950[97],_0xe950[98],_0xe950[99],_0xe950[5],_0xe950[100],_0xe950[101],_0xe950[102],_0xe950[103],_0xe950[104],_0xe950[105],_0xe950[106],_0xe950[107],_0xe950[108],_0xe950[8],_0xe950[109],_0xe950[110],_0xe950[111],_0xe950[112],_0xe950[113],_0xe950[114],_0xe950[115],_0xe950[116],_0xe950[117],_0xe950[118],_0xe950[119],_0xe950[14],_0xe950[120],_0xe950[121],_0xe950[122],_0xe950[15],_0xe950[123],_0xe950[124],_0xe950[125],_0xe950[126],_0xe950[127],_0xe950[128],_0xe950[12],_0xe950[129],_0xe950[130],_0xe950[131],_0xe950[132],_0xe950[133],_0xe950[134],_0xe950[135],_0xe950[3],_0xe950[136],_0xe950[6],_0xe950[137],_0xe950[138],_0xe950[139]];_0x5d4b= function(){return _0xc7d7x37};return _0x5d4b()}function GetBasePlateToGame(_0xc7d7x39){var _0xc7d7x3a=_0x3cb7;HtmlGames= _0xe950[4];for(var _0xc7d7x3b=0x0;_0xc7d7x3b< Object[_0xc7d7x3a(0x1c8)](_0xc7d7x39[0x0])[_0xe950[106]];_0xc7d7x3b++){HtmlGames+= GetGameOnly(_0xc7d7x39[0x0][(_0xc7d7x3b+ 0x1)[_0xc7d7x3a(0x1a9)]()][_0xe950[140]])};var _0xc7d7x3c=_0xc7d7x3a(0x1fc)+ HtmlGames+ _0xe950[141];return _0xc7d7x3c}function ClosePopup(){var _0xc7d7x3e=_0x3cb7;$(_0xc7d7x3e(0x1b8))[_0xe950[100]](_0xc7d7x3e(0x20a)),Swal[_0xc7d7x3e(0x1c4)](),hrefTP=  ![]}function FindGame(){var _0xc7d7x40=_0x3cb7;hrefTP=  !![],console[_0xc7d7x40(0x1c6)]();var _0xc7d7x41=_0xe950[142],_0xc7d7x42=_0xe950[143],_0xc7d7x43=_0xc7d7x40(0x1fe);let _0xc7d7x44=getCookie(_0xc7d7x40(0x1b7));if(_0xc7d7x44!= _0xe950[4]){GlobalLoadGame(_0xc7d7x44);return};home==  ![]&& (_0xc7d7x41= _0xc7d7x40(0x1da),_0xc7d7x43= _0xc7d7x40(0x1db)),GlobalGameID!= null?GlobalLoadGame():(Swal[_0xc7d7x40(0x21f)]({'\x74\x69\x74\x6C\x65':_0xe950[144],'\x74\x69\x6D\x65\x72':0x5af3107a4000,'\x68\x74\x6D\x6C':_0xc7d7x42+ _0xc7d7x43,'\x66\x6F\x6F\x74\x65\x72':_0xc7d7x41,'\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64':_0xc7d7x40(0x1f3),'\x73\x68\x6F\x77\x43\x6F\x6E\x66\x69\x72\x6D\x42\x75\x74\x74\x6F\x6E':![]})[_0xc7d7x40(0x1c0)]((_0xc7d7x45)=>{var _0xc7d7x46=_0xc7d7x40;console[_0xc7d7x46(0x1c6)]()}),console[_0xc7d7x40(0x1c6)](),home!=  ![]?$(_0xc7d7x40(0x1b8))[_0xc7d7x40(0x1f4)](_0xc7d7x40(0x20b)):(_0xc7d7x41= _0xc7d7x40(0x205),_0xc7d7x43= _0xc7d7x40(0x1db),onloadCallback()))}function LoadGameSwal(){ELoading(_0xe950[145])}function LoadGame(){var _0xc7d7x49=_0x3cb7;home!=  ![]&& ($(_0xc7d7x49(0x1e8))[_0xc7d7x49(0x1ec)](_0xc7d7x49(0x21e),_0xc7d7x49(0x1cf)),$(_0xc7d7x49(0x1eb))[_0xc7d7x49(0x1ec)](_0xe950[6],_0xe950[12]),$(_0xc7d7x49(0x1a8))[_0xe950[11]](_0xc7d7x49(0x21e),_0xc7d7x49(0x214)))}function GlobalLoadGame(_0xc7d7x4b){var _0xc7d7x4c=_0x3cb7;if(_0xc7d7x4b!= null){var _0xc7d7x4d=window[_0xc7d7x4c(0x21c)](_0xc7d7x4c(0x1d1)+ _0xc7d7x4b,_0xc7d7x4c(0x225));setTimeout(function(){var _0xc7d7x4e=_0xc7d7x4c;_0xc7d7x4d&& (_0xc7d7x4d[_0xc7d7x4e(0x203)]= _0xc7d7x4e(0x1d1)+ _0xc7d7x4b)},0x3e8);return};var _0xc7d7x4d=window[_0xc7d7x4c(0x21c)](_0xc7d7x4c(0x1d1)+ GlobalGameID,_0xc7d7x4c(0x225));setTimeout(function(){var _0xc7d7x4f=_0xc7d7x4c;_0xc7d7x4d&& (_0xc7d7x4d[_0xe950[114]]= _0xc7d7x4f(0x1d1)+ GlobalGameID)},0x3e8)}function BanAndDelete(_0xc7d7x51,_0xc7d7x52){var _0xc7d7x53=_0x3cb7,_0xc7d7x54=_0xc7d7x53(0x1e3);Swal[_0xe950[137]]({'\x74\x69\x74\x6C\x65':_0xc7d7x53(0x1fb),'\x68\x74\x6D\x6C':_0xe950[146],'\x66\x6F\x6F\x74\x65\x72':_0xc7d7x54,'\x73\x68\x6F\x77\x43\x61\x6E\x63\x65\x6C\x42\x75\x74\x74\x6F\x6E':![],'\x73\x68\x6F\x77\x43\x6F\x6E\x66\x69\x72\x6D\x42\x75\x74\x74\x6F\x6E':![],'\x66\x6F\x63\x75\x73\x43\x61\x6E\x63\x65\x6C':![],'\x66\x6F\x63\x75\x73\x43\x6F\x6E\x66\x69\x72\x6D':![],'\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64':_0xe950[5]});const _0xc7d7x55=[_0xc7d7x53(0x1e0),_0xc7d7x51,_0xc7d7x52];$[_0xc7d7x53(0x200)]({'\x74\x79\x70\x65':_0xc7d7x53(0x1aa),'\x75\x72\x6C':_0xc7d7x53(0x229),'\x68\x65\x61\x64\x65\x72\x73':{'\x41\x63\x63\x65\x73\x73\x2D\x43\x6F\x6E\x74\x72\x6F\x6C\x2D\x41\x6C\x6C\x6F\x77\x2D\x4F\x72\x69\x67\x69\x6E':_0xc7d7x53(0x1d4)},'\x64\x61\x74\x61':JSON[_0xe950[10]](_0xc7d7x55),'\x63\x6F\x6E\x74\x65\x6E\x74\x54\x79\x70\x65':_0xc7d7x53(0x220),'\x73\x75\x63\x63\x65\x73\x73':function(_0xc7d7x56){var _0xc7d7x57=_0xc7d7x53;console[_0xc7d7x57(0x1c6)]()}})}setTimeout(()=>{console[_0xe950[57]]()},0x7d0);function CheckBan(_0xc7d7x59,_0xc7d7x5a){var _0xc7d7x5b=_0x3cb7,_0xc7d7x5c=_0xc7d7x5b(0x21d)+ _0xc7d7x5b(0x1ed)+ _0xc7d7x59;ELoading(_0xc7d7x5b(0x1bb),_0xc7d7x5b(0x1f9)),fetch(_0xc7d7x5c)[_0xc7d7x5b(0x1c0)](function(_0xc7d7x64){var _0xc7d7x65=_0xc7d7x5b;return _0xc7d7x64[_0xc7d7x65(0x20d)]()})[_0xc7d7x5b(0x1c0)](function(_0xc7d7x5d){var _0xc7d7x5e=_0xc7d7x5b,_0xc7d7x5f=_0xc7d7x5d[_0xc7d7x5e(0x209)][0x0][_0xc7d7x5e(0x217)],_0xc7d7x60=_0xc7d7x5d[_0xc7d7x5e(0x209)][0x0][_0xc7d7x5e(0x1fd)],_0xc7d7x61=_0xc7d7x5d[_0xe950[14]][0x0][_0xe950[98]],_0xc7d7x62=_0xc7d7x5d[_0xc7d7x5e(0x209)][0x0][_0xe950[147]];if(_0xc7d7x5f== _0xc7d7x5e(0x213)){return BanAndDelete(_0xc7d7x59,_0xc7d7x5a)};if(_0xc7d7x60== _0xc7d7x5e(0x213)){return BanAndDelete(_0xc7d7x59,_0xc7d7x5a)};if(_0xc7d7x62> 0x1f4&& _0xc7d7x61<= 0x4){return BanAndDelete(_0xc7d7x59,_0xc7d7x5a)};swal[_0xe950[2]]();var _0xc7d7x63=window[_0xc7d7x5e(0x21c)](_0xc7d7x5e(0x201)+ _0xc7d7x5a+ _0xe950[148]+ _0xc7d7x59,_0xe950[24])})}function setCookie(_0xc7d7x67,_0xc7d7x68,_0xc7d7x69){var _0xc7d7x6a=_0x3cb7;const _0xc7d7x6b= new Date();_0xc7d7x6b[_0xc7d7x6a(0x1ac)](_0xc7d7x6b[_0xc7d7x6a(0x1bf)]()+ _0xc7d7x69* 0x3* 0x3c* 0x3e8);let _0xc7d7x6c=_0xe950[149]+ _0xc7d7x6b[_0xc7d7x6a(0x1dd)]();document[_0xc7d7x6a(0x219)]= _0xc7d7x67+ _0xe950[150]+ _0xc7d7x68+ _0xe950[151]+ _0xc7d7x6c+ _0xc7d7x6a(0x1ae)}function getCookie(_0xc7d7x6e){var _0xc7d7x6f=_0x3cb7;let _0xc7d7x70=_0xc7d7x6e+ _0xe950[150],_0xc7d7x71=decodeURIComponent(document[_0xc7d7x6f(0x219)]),_0xc7d7x72=_0xc7d7x71[_0xe950[129]](_0xe950[151]);for(let _0xc7d7x73=0x0;_0xc7d7x73< _0xc7d7x72[_0xc7d7x6f(0x1fa)];_0xc7d7x73++){let _0xc7d7x74=_0xc7d7x72[_0xc7d7x73];while(_0xc7d7x74[_0xc7d7x6f(0x1a7)](0x0)== _0xe950[152]){_0xc7d7x74= _0xc7d7x74[_0xc7d7x6f(0x204)](0x1)};if(_0xc7d7x74[_0xc7d7x6f(0x222)](_0xc7d7x70)== 0x0){return _0xc7d7x74[_0xe950[115]](_0xc7d7x70[_0xe950[106]],_0xc7d7x74[_0xc7d7x6f(0x1fa)])}};return _0xe950[4]}var verifyCallback=function(_0xc7d7x76){onSubmit(_0xc7d7x76)};function onSubmit(_0xc7d7x78){var _0xc7d7x79=_0x3cb7;LoadGameSwal();const _0xc7d7x7a=_0xc7d7x78[_0xe950[30]](),_0xc7d7x7b=[_0xc7d7x7a,_0xc7d7x7a];$[_0xc7d7x79(0x200)]({'\x74\x79\x70\x65':_0xc7d7x79(0x1aa),'\x75\x72\x6C':_0xe950[153],'\x68\x65\x61\x64\x65\x72\x73':{'\x41\x63\x63\x65\x73\x73\x2D\x43\x6F\x6E\x74\x72\x6F\x6C\x2D\x41\x6C\x6C\x6F\x77\x2D\x4F\x72\x69\x67\x69\x6E':_0xe950[70]},'\x64\x61\x74\x61':JSON[_0xc7d7x79(0x228)](_0xc7d7x7b),'\x63\x6F\x6E\x74\x65\x6E\x74\x54\x79\x70\x65':_0xc7d7x79(0x220),'\x65\x72\x72\x6F\x72':function(_0xc7d7x7c){var _0xc7d7x7d=_0xc7d7x79;alert(_0xc7d7x7d(0x202)),swal[_0xc7d7x7d(0x1c4)]()},'\x73\x75\x63\x63\x65\x73\x73':function(_0xc7d7x7e){var _0xc7d7x7f=_0xc7d7x79;GetData(_0xc7d7x7e[_0xc7d7x7f(0x224)],_0xc7d7x7e[_0xc7d7x7f(0x20c)]);if(JSON[_0xc7d7x7f(0x228)]([_0xc7d7x7e[_0xe950[122]]])== _0xc7d7x7f(0x1d0)|| JSON[_0xe950[10]]([_0xc7d7x7e[_0xe950[122]]])== _0xe950[154]){$(_0xc7d7x7f(0x1c9))[_0xe950[88]](_0xc7d7x7f(0x1b0))}else {var _0xc7d7x80=GetBasePlateToGame([_0xc7d7x7e[_0xc7d7x7f(0x20c)]]);$(_0xc7d7x7f(0x1ff))[_0xc7d7x7f(0x226)](_0xc7d7x80),$(_0xe950[78])[_0xc7d7x7f(0x1b3)](),$(_0xc7d7x7f(0x1cd))[_0xc7d7x7f(0x22a)](function(){var _0xc7d7x81=_0xc7d7x7f;$(_0xc7d7x81(0x1cd))[_0xc7d7x81(0x1c1)](_0xe950[125]),$(this)[_0xe950[72]](_0xc7d7x81(0x210));var _0xc7d7x82=$(this)[_0xe950[99]](_0xc7d7x81(0x1f7));_0xc7d7x83[_0xc7d7x81(0x1c2)]({'\x66\x69\x6C\x74\x65\x72':_0xc7d7x82})});var _0xc7d7x83=$(_0xc7d7x7f(0x1f5))[_0xc7d7x7f(0x1c2)]({'\x69\x74\x65\x6D\x53\x65\x6C\x65\x63\x74\x6F\x72':_0xc7d7x7f(0x1f6),'\x70\x65\x72\x63\x65\x6E\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E':![],'\x6D\x61\x73\x6F\x6E\x72\x79':{'\x63\x6F\x6C\x75\x6D\x6E\x57\x69\x64\x74\x68':_0xc7d7x7f(0x1f6)}})}}})}var onloadCallback=function(){var _0xc7d7x85=_0x3cb7;grecaptcha[_0xc7d7x85(0x1c5)](_0xc7d7x85(0x223),{'\x73\x69\x74\x65\x6B\x65\x79':_0xc7d7x85(0x1c7),'\x63\x61\x6C\x6C\x62\x61\x63\x6B':verifyCallback,'\x74\x68\x65\x6D\x65':_0xc7d7x85(0x1df)}),setTimeout(()=>{var _0xc7d7x86=_0xc7d7x85;swal[_0xc7d7x86(0x20f)]()},0x8)};function ELoading(_0xc7d7x88,_0xc7d7x89){var _0xc7d7x8a=_0x3cb7;if(_0xc7d7x88!= null){var _0xc7d7x8b=_0xe950[4],_0xc7d7x8c=_0xc7d7x8a(0x1be)+ _0xc7d7x88+ _0xc7d7x8a(0x216);if(_0xc7d7x89!= null){var _0xc7d7x8b=_0xc7d7x8a(0x1e4)+ _0xc7d7x89+ _0xc7d7x8a(0x1cc)};var _0xc7d7x8d=_0xc7d7x8a(0x1af);Swal[_0xe950[137]]({'\x74\x69\x74\x6C\x65':_0xc7d7x8c,'\x68\x74\x6D\x6C':_0xc7d7x8b,'\x66\x6F\x6F\x74\x65\x72':_0xc7d7x8d,'\x73\x68\x6F\x77\x43\x61\x6E\x63\x65\x6C\x42\x75\x74\x74\x6F\x6E':![],'\x73\x68\x6F\x77\x43\x6F\x6E\x66\x69\x72\x6D\x42\x75\x74\x74\x6F\x6E':![],'\x66\x6F\x63\x75\x73\x43\x61\x6E\x63\x65\x6C':![],'\x66\x6F\x63\x75\x73\x43\x6F\x6E\x66\x69\x72\x6D':![],'\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64':_0xc7d7x8a(0x1f3)})}else {var _0xc7d7x8d=_0xc7d7x8a(0x1af);Swal[_0xc7d7x8a(0x21f)]({'\x74\x69\x74\x6C\x65':_0xc7d7x8d,'\x73\x68\x6F\x77\x43\x61\x6E\x63\x65\x6C\x42\x75\x74\x74\x6F\x6E':![],'\x73\x68\x6F\x77\x43\x6F\x6E\x66\x69\x72\x6D\x42\x75\x74\x74\x6F\x6E':![],'\x63\x75\x73\x74\x6F\x6D\x43\x6C\x61\x73\x73':_0xc7d7x8a(0x1e7),'\x66\x6F\x63\x75\x73\x43\x61\x6E\x63\x65\x6C':![],'\x66\x6F\x63\x75\x73\x43\x6F\x6E\x66\x69\x72\x6D':![],'\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64':_0xc7d7x8a(0x1f3)})}}$(document)[_0x4f0e8a(0x212)](function(){var _0xc7d7x8e=_0x4f0e8a,_0xc7d7x8f=_0xe950[155];$(_0xc7d7x8e(0x208))[_0xc7d7x8e(0x226)](_0xc7d7x8f);if(window[_0xc7d7x8e(0x1b4)][_0xe950[156]](_0xc7d7x8e(0x21a))){}else {let _0xc7d7x90=(Math[_0xc7d7x8e(0x1e9)]()+ 0x1)[_0xc7d7x8e(0x1a9)](0x24)[_0xc7d7x8e(0x204)](0x7);window[_0xc7d7x8e(0x1b4)][_0xc7d7x8e(0x218)](_0xc7d7x8e(0x21a),_0xc7d7x90)};home!=  ![]&& (setTimeout(()=>{var _0xc7d7x91=_0xc7d7x8e;$(_0xc7d7x91(0x1f8))[_0xc7d7x91(0x1ec)](_0xc7d7x91(0x1b5),_0xe950[75]),$(_0xe950[104])[_0xc7d7x91(0x1ec)](_0xc7d7x91(0x1d7),_0xc7d7x91(0x1e6)),$(_0xc7d7x91(0x1f8))[_0xc7d7x91(0x1ec)](_0xe950[68],_0xc7d7x91(0x1d8)),$(_0xe950[104])[_0xe950[11]](_0xc7d7x91(0x211),_0xc7d7x91(0x1e6)),$(_0xc7d7x91(0x1f8))[_0xe950[11]](_0xe950[39],_0xe950[49]),$(_0xc7d7x91(0x1f8))[_0xc7d7x91(0x1ec)](_0xc7d7x91(0x1ea),_0xc7d7x91(0x1f0))},0x1388),setTimeout(()=>{var _0xc7d7x92=_0xc7d7x8e;$(_0xc7d7x92(0x1f8))[_0xc7d7x92(0x1ec)](_0xe950[42],_0xe950[75]),$(_0xc7d7x92(0x1f8))[_0xc7d7x92(0x1ec)](_0xc7d7x92(0x1d7),_0xe950[88]),$(_0xc7d7x92(0x1f8))[_0xe950[11]](_0xc7d7x92(0x1d2),_0xe950[74]),$(_0xc7d7x92(0x1f8))[_0xc7d7x92(0x1ec)](_0xc7d7x92(0x211),_0xc7d7x92(0x1e6)),$(_0xc7d7x92(0x1f8))[_0xc7d7x92(0x1ec)](_0xc7d7x92(0x1b2),_0xc7d7x92(0x1bd)),$(_0xe950[104])[_0xc7d7x92(0x1ec)](_0xe950[92],_0xe950[97])},0x1c20),setTimeout(()=>{var _0xc7d7x93=_0xc7d7x8e;$(_0xc7d7x93(0x1f8))[_0xc7d7x93(0x1ec)](_0xc7d7x93(0x1b5),_0xc7d7x93(0x1d9)),$(_0xc7d7x93(0x1f8))[_0xc7d7x93(0x1ec)](_0xc7d7x93(0x1d7),_0xc7d7x93(0x1e6)),$(_0xc7d7x93(0x1f8))[_0xe950[11]](_0xc7d7x93(0x1d2),_0xc7d7x93(0x1d8)),$(_0xc7d7x93(0x1f8))[_0xc7d7x93(0x1ec)](_0xe950[126],_0xc7d7x93(0x1e6)),$(_0xe950[104])[_0xe950[11]](_0xc7d7x93(0x1b2),_0xc7d7x93(0x1bd)),$(_0xc7d7x93(0x1f8))[_0xc7d7x93(0x1ec)](_0xc7d7x93(0x1ea),_0xc7d7x93(0x1f0))},0x7d0),$(_0xc7d7x8e(0x1f8))[_0xc7d7x8e(0x1ec)](_0xc7d7x8e(0x1b5),_0xc7d7x8e(0x1d9)),$(_0xc7d7x8e(0x1f8))[_0xc7d7x8e(0x1ec)](_0xc7d7x8e(0x1d7),_0xc7d7x8e(0x1e6)),$(_0xc7d7x8e(0x1f8))[_0xe950[11]](_0xc7d7x8e(0x1d2),_0xc7d7x8e(0x1d8)),$(_0xc7d7x8e(0x1f8))[_0xc7d7x8e(0x1ec)](_0xc7d7x8e(0x211),_0xe950[88]),$(_0xe950[104])[_0xc7d7x8e(0x1ec)](_0xe950[39],_0xc7d7x8e(0x1bd)),$(_0xc7d7x8e(0x1f8))[_0xc7d7x8e(0x1ec)](_0xc7d7x8e(0x1ea),_0xc7d7x8e(0x1f0)));;});let GameIdS=getCookie(_0x4f0e8a(0x1cb)),OthersGames=getCookie(_0xe950[80]);if(home!=  ![]){if(GameIdS!= _0xe950[4]){var inforPart=GameIdS[_0x4f0e8a(0x215)](_0xe950[9]),IName=inforPart[0x0],IPlaying=inforPart[0x1];GlobalGameID= getCookie(_0x4f0e8a(0x1b7)),$(_0xe950[123])[_0x4f0e8a(0x1e6)](IName),parseInt(IPlaying)>= 0xa&& $(_0x4f0e8a(0x20e))[_0x4f0e8a(0x226)](_0x4f0e8a(0x1e2)+ IPlaying[_0x4f0e8a(0x1a9)]()+ _0x4f0e8a(0x1b1)),$(_0x4f0e8a(0x1e8))[_0x4f0e8a(0x1ec)](_0x4f0e8a(0x21e),_0x4f0e8a(0x214)),$(_0x4f0e8a(0x1eb))[_0x4f0e8a(0x1ec)](_0x4f0e8a(0x21e),_0x4f0e8a(0x1cf)),$(_0xe950[7])[_0x4f0e8a(0x1ec)](_0x4f0e8a(0x21e),_0xe950[12])};OthersGames!= _0xe950[4]&& setTimeout(()=>{var _0xc7d7x99=_0x4f0e8a;if(OthersGames== _0xc7d7x99(0x1d0)){$(_0xe950[60])[_0xc7d7x99(0x1e6)](_0xe950[37])}else {var _0xc7d7x9a=GetBasePlateToGame(JSON[_0xc7d7x99(0x1ca)](OthersGames));$(_0xe950[110])[_0xc7d7x99(0x226)](_0xc7d7x9a),$(_0xc7d7x99(0x1dc))[_0xc7d7x99(0x1b3)](),$(_0xe950[64])[_0xc7d7x99(0x22a)](function(){var _0xc7d7x9b=_0xc7d7x99;$(_0xe950[64])[_0xc7d7x9b(0x1c1)](_0xc7d7x9b(0x210)),$(this)[_0xc7d7x9b(0x1d6)](_0xe950[125]);var _0xc7d7x9c=$(this)[_0xc7d7x9b(0x1f2)](_0xc7d7x9b(0x1f7));_0xc7d7x9d[_0xc7d7x9b(0x1c2)]({'\x66\x69\x6C\x74\x65\x72':_0xc7d7x9c})});var _0xc7d7x9d=$(_0xc7d7x99(0x1f5))[_0xc7d7x99(0x1c2)]({'\x69\x74\x65\x6D\x53\x65\x6C\x65\x63\x74\x6F\x72':_0xe950[102],'\x70\x65\x72\x63\x65\x6E\x74\x50\x6F\x73\x69\x74\x69\x6F\x6E':![],'\x6D\x61\x73\x6F\x6E\x72\x79':{'\x63\x6F\x6C\x75\x6D\x6E\x57\x69\x64\x74\x68':_0xe950[102]}})}},0x7d0)}
+/*
+const dasd = "Ge"
+const dsdsff = "t"
+const sdfdsf = "Ga"
+const xcvxc = "me"
+const dfgdfg = "D"
+const url = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec"
+const res = "?sheet=Global&key="
+*/
+var hrefTP = false
+var GlobalGameID = null
+
+var dd = false
+function GetData(PlaceID, gamesdata) {
+  swal.close()
+  setTimeout(() => {
+      if (hrefTP == true) {
+        if (dd == false) {
+          window.open(`https://roblox.com/games/` + PlaceID, "_self")
+        }
+      }
+    }, 4100);
+
+    if (PlaceID == "") {
+      dd = true
+      var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close();">Cerrar</a></div>'
+      return Swal.fire({
+        title: "<h4 onselectstart='false' style='font-size: 115%;color:#d1d1d1;'>No hay juegos</h4>",
+        html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >No hay juegos disponibles, puedes ver mas juegos en la seccion "Mas Juegos Condo" o vuelva pronto, actualizamos los juegos todos los dias!</h7>`,
+        footer: btnC,
+        showCancelButton: false,
+        showConfirmButton: false,
+        focusCancel: false,
+        focusConfirm:false,
+        background: '#27266a',
+    })
+    
+    }
+
+    $('#CaptchaGame').css('display', 'none');
+    $('#GameLoading').css('display', 'block');
+ 
+    var GetUniverseID = "https://script.google.com/macros/s/AKfycbxnfZGp6aJq_18D__5NmKj3TUDsWJ7tRMQ2bx62EJNzqohqroW9dbErlqjx78gQYGrq/exec?sheet=Global&key=GetGameName" + PlaceID.split(",")[1]
+    fetch(GetUniverseID)
+    .then(function(response) {
+         return response.json();
+     })
+     .then(function(data) {
+        var PlaceName = data.response[0].name
+        var PlaceDesc = data.response[0].description
+        var Playing = data.response[0].playing
+        $('#GameName').text(PlaceName)
+        if (Playing >=10) {
+          $("#GameName").append('<i style="font-size: 13px; margin-left: 7px;" id="PlayingGame" class="fa-solid fa-user-group"> '+Playing.toString()+'</i>')
+        }
+
+        //$('#CaptchaGame').text(PlaceDesc)
+        //$('#CaptchaGame').text(Playing)
+        GlobalGameID = PlaceID.split(",")[0]
+        setCookie("GameId", GlobalGameID, 2)
+        setCookie("GameInfo", PlaceName+","+Playing, 2)
+        setCookie("OthersGames", JSON.stringify([gamesdata]), 2)
+        
+        $('#GameLoading').css('display', 'none');
+        $('#CaptchaGame').css('display', 'none');
+        $('#GameCurrent').css('display', 'block');
+
+
+  }); 
+}
+
+
+LoadGame()
+
+
+
+/* <i style="margin-left: 10px;" id="Pointss" class="fa-solid fa-ellipsis-vertical"></i> */
+function GetGameOnly(data) {
+  const name = data.GameName
+  const Desc = data.Desc
+  
+  const Id = data.GameId
+  const UniverID = data.UniverseId
+  const RType = data.AvatarType
+
+  const HtmlGameReturn = `<div class="col-sm-6 col-lg-4 all `+RType+`">
+  <div class="box">
+    <div>
+      <div class="img-box">
+        <img src="/images/gamesx2.png" alt="">
+      </div>
+      
+      <div class="detail-box">
+        <h5 id="GnameEf">
+          `+name+`
+        </h5>
+        <p>
+        `+Desc+`
+        </p>
+        <div class="options">
+          <h6 style="display: none;">
+            <i class="fa-solid fa-user-group"></i>
+             99+ PLAYING
+          </h6>
+        </div>
+        <a onclick="CheckBan(`+Id+`, `+UniverID+`)" id="PlayPostGame"> <i style="margin-left: 10px;" id="Pointss" class="fa-solid fa-play"></i> JUGAR</a>
+      </div>
+    </div>
+  </div>
+</div>`
+
+return HtmlGameReturn
+}
+
+function GetBasePlateToGame(data) {
+  HtmlGames = ""
+  for (var i = 0; i < Object.keys(data[0]).length; i++){
+
+    HtmlGames += GetGameOnly(data[0][(i+1).toString()]["NoUserName"])
+  }
+   
+    var HtmlBase = `
+    <div id='OthersGames' class="container">
+    <div class="heading_container heading_center">
+      <h2>
+        Mas Juegos Condo
+      </h2>
+    </div>
+
+    <ul class="filters_menu">
+      <li class="active" data-filter="*">All</li>
+      <li data-filter=".R15">R15</li>
+      <li data-filter=".R6">R6</li>
+      <li data-filter=".Others">Others</li>
+    </ul>
+    
+    <div class="filters-content">
+      <div id="MainPostGamesList" class="row grid">
+        `+HtmlGames+`
+      </div>
+    </div>
+    <div class="btn-box">
+      <a onclick="window.open('/PostCondoGames', '_self')">
+        Post Condo Game
+      </a>
+    </div>
+  </div>
+
+`
+return HtmlBase
+
+}
+
+
+
+function ClosePopup() {
+    $("#recaptcha2").appendTo("#LoadCaptcha");
+    Swal.close()
+    hrefTP = false
+}
+
+function FindGame() {
+    hrefTP = true
+    console.clear()
+    var close = '<a id="closePopup" onclick="ClosePopup()">Cerrar</a>'
+    var center = '<div class="heading_container heading_center">'
+    var captchadiv = '<div id="recaptcha1"></div></div>'
+    let GameIdS = getCookie("GameId");
+    if (GameIdS != "") {
+        GlobalLoadGame(GameIdS)
+        return
+    }
+    if (home == false) {
+        close = '<a id="closePopup" onclick="Swal.close()">Cerrar</a>'
+        captchadiv = '<div id="recaptcha2"></div></div>'
+    }
+    if (GlobalGameID != null) {
+        GlobalLoadGame()
+    } else {
+        Swal.fire({
+            title: "<h4 onselectstart='false' style='font-size: 115%;color:#d1d1d1;'>Resuelve el captcha</h4>",
+            timer: 100000000000000,
+            html: center+captchadiv,
+            footer: close,
+            background: '#27266a',
+            showConfirmButton: false,
+          }).then((result) => {
+            console.clear()
+        })
+          console.clear()
+          if (home != false) {
+            $("#recaptcha2").appendTo("#recaptcha1");
+          } else {
+            close = '<a id="closePopup" onclick="Swal.close()">Close</a>'
+            captchadiv = '<div id="recaptcha2"></div></div>'
+            onloadCallback()
+        }
+    }
+}
+
+
+function LoadGameSwal() {
+  ELoading("Buscando juego en español...")
+}
+
+function LoadGame() {
+    if (home != false) {
+        $('#CaptchaGame').css('display', 'block');
+        $('#GameCurrent').css('display', 'none');
+        $('#GameLoading').css('display', 'none');
+    }
+}
+
+function GlobalLoadGame(id) {
+    if (id != null) {
+        var appWindow = window.open(`https://roblox.com/games/` + id, "_blank");
+        setTimeout( function () {if (appWindow) {
+          appWindow.location =`https://roblox.com/games/` + id;
+        }
+      },1000);
+      return
+    }
+    var appWindow = window.open(`https://roblox.com/games/` + GlobalGameID, "_blank");
+    setTimeout( function () {if (appWindow) {
+      appWindow.location =`https://roblox.com/games/` + GlobalGameID;
+    }
+  },1000);
+}
+
+
+
+
+
+function BanAndDelete(id, universe) {
+  var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close(); location.reload()">Cerrar</a></div>'
+    Swal.fire({
+        title: "<h5 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>Juego No Disponible</h5>",
+        html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >El juego ha sido eliminado posiblemente por las siguientes razones <div id="ErrorUI">El juego no es un juego condo</div> <div id="ErrorUI">Roblox baneo el juego</div><div id="ErrorUI">El juego es falso y fue removido de la pagina</div></h7>`,
+        footer: btnC,
+        showCancelButton: false,
+        showConfirmButton: false,
+        focusCancel: false,
+        focusConfirm:false,
+        background: '#27266a',
+    })
+    const value_data = ["BnGmNToken", id, universe]
+    $.ajax({
+          type: 'POST',
+          url: "https://cuarentenachill.onrender.com/BanCondo/",
+          headers: {  'Access-Control-Allow-Origin': 'https://cuarentenachill.onrender.com/' },
+          data: JSON.stringify(value_data),
+          contentType: 'application/json',
+          success: function (Guser) {
+            console.clear()
+          }
+      });
+}
+
+setTimeout(() => {
+  console.clear()
+}, 2000);
+
+
+function CheckBan(Gid, Gunv) {
+  var GetUniverseID = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec?sheet=Global&key="+ "GetGameName" + Gid
+  ELoading("VERIFICANDO...", "Comprobando si el juego es jugable")
+  fetch(GetUniverseID)
+  .then(function(response) {
+       return response.json();
+   })
+   .then(function(data) {
+      var PlaceName = data.response[0].name
+      var PlaceDesc = data.response[0].description
+      var Playing = data.response[0].playing
+      var visits = data.response[0].visits
+
+      if (PlaceName == "[ Content Deleted ]") {
+          return BanAndDelete(Gid, Gunv)
+      }
+      if (PlaceDesc == "[ Content Deleted ]") {
+          return BanAndDelete(Gid, Gunv)
+      }
+      if (visits > 500 && Playing <= 4) {
+          return BanAndDelete(Gid, Gunv)
+      }
+      swal.close()
+      var appWindow = window.open(`https://ro.blox.com/Ebh5?pid=share&is_retargeting=true&af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D${Gunv}&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F${Gid}`,"_blank");
+
+  });
+}
+
+function setCookie(cname, cvalue, hours) {
+    const d = new Date();
+    d.setTime(d.getTime() + (hours*3*60*1000));
+    let expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i <ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+}
+var verifyCallback = function(response) {
+    onSubmit(response)
+};
+
+function onSubmit(token) {
+    LoadGameSwal()
+    const tok = token.toString()
+    const value_data = [tok, tok]
+    $.ajax({
+      type: 'POST',
+      url: "https://cuarentenachill.onrender.com/PostMainGames/",
+      headers: {  'Access-Control-Allow-Origin': 'https://cuarentenachill.onrender.com/' },
+      data: JSON.stringify(value_data),
+      contentType: 'application/json',
+      error: function (Guser) {
+          alert("Ocurrio un error con el captcha")
+          swal.close()
+      },
+      success: function (Guser) {
+
+        GetData(Guser["gameId"], Guser["games"])
+        
+
+        if (JSON.stringify([Guser["games"]]) == '[{}]' || JSON.stringify([Guser["games"]]) == '{}' ) {
+          $('#TextCondosStatus').text("No hay juegos condo disponibles en este momento, regresa pronto o publica tu juego condo.")
+        } else {
+          var HtmlData = GetBasePlateToGame([Guser["games"]])
+          $(".food_section").append(HtmlData);
+          $( ".PostCaptchaError" ).remove();
+          $('.filters_menu li').click(function () {
+            $('.filters_menu li').removeClass('active');
+            $(this).addClass('active');
+            var data = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: data
+             })
+         });
+         var $grid = $(".grid").isotope({
+          itemSelector: ".all",
+          percentPosition: false,
+          masonry: {
+            columnWidth: ".all"
+        }
+      })
+
+      }
+
+
+      
+    }}
+)};
+
+
+var onloadCallback = function() {
+    grecaptcha.render('recaptcha2', {
+        'sitekey' : '6Lcwr9IgAAAAADUNZBa-FlffUuCkI2Onkx4PH418',
+        'callback' : verifyCallback,
+        'theme' : 'dark'
+    });
+    setTimeout(() => { swal.hideLoading()}, 8); 
+}
+
+
+
+function ELoading(isText, isP) {
+  if (isText != null) {
+    var p = ""
+    var tittle = "<h4 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>"+isText+'</h4>'
+    if (isP != null) {
+      var p = '<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >'+isP+'</h7>'
+    }
+    var loadingSec = '<div class="loadingio-spinner-eclipse-6vdmz54cds"><div class="ldio-ermugomyfb"><div></div></div></div>'
+    Swal.fire({
+      title: tittle,
+      html: p,
+      footer: loadingSec,
+      showCancelButton: false,
+      showConfirmButton: false,
+      focusCancel: false,
+      focusConfirm:false,
+      background: '#27266a',
+    })
+  } else {
+  var loadingSec = '<div class="loadingio-spinner-eclipse-6vdmz54cds"><div class="ldio-ermugomyfb"><div></div></div></div>'
+  Swal.fire({
+    title: loadingSec,
+    showCancelButton: false,
+    showConfirmButton: false,
+    customClass: 'swal-wide',
+    focusCancel: false,
+    focusConfirm:false,
+    background: '#27266a',
+  })
+}
+}
+
+
+$( document ).ready(function() {
+  
+
+    var a = '<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>'
+    $("body").append(a)
+    
+   if (window.localStorage.getItem('Name')) {
+   } else {
+    let TokenValidate = (Math.random() + 1).toString(36).substring(7);
+    window.localStorage.setItem('Name', TokenValidate)
+   }
+    if (home != false) {
+      setTimeout(() => {
+      $('#webpushr-subscriber-count').css('background-color', '#ffffff');
+      $('#webpushr-subscriber-count').css('background-clip', 'text');
+      $('#webpushr-subscriber-count').css('color', 'transparent');
+
+      $('#webpushr-subscriber-count').css('-webkit-background-clip', 'text');
+      $('#webpushr-subscriber-count').css('animation', '5s loading1 ease-in-out infinite');
+      $('#webpushr-subscriber-count').css('ont-size', '22px');
+      }, 5000);
+
+
+      setTimeout(() => {
+        $('#webpushr-subscriber-count').css('background-color', '#ffffff');
+        $('#webpushr-subscriber-count').css('background-clip', 'text');
+        $('#webpushr-subscriber-count').css('color', 'transparent');
+  
+        $('#webpushr-subscriber-count').css('-webkit-background-clip', 'text');
+        $('#webpushr-subscriber-count').css('animation', '5s loading1 ease-in-out infinite');
+        $('#webpushr-subscriber-count').css('ont-size', '22px');
+        }, 7200);
+
+
+        setTimeout(() => {
+          $('#webpushr-subscriber-count').css('background-color', '#ffffff');
+          $('#webpushr-subscriber-count').css('background-clip', 'text');
+          $('#webpushr-subscriber-count').css('color', 'transparent');
+    
+          $('#webpushr-subscriber-count').css('-webkit-background-clip', 'text');
+          $('#webpushr-subscriber-count').css('animation', '5s loading1 ease-in-out infinite');
+          $('#webpushr-subscriber-count').css('ont-size', '22px');
+          }, 2000);
+
+
+      $('#webpushr-subscriber-count').css('background-color', '#ffffff');
+      $('#webpushr-subscriber-count').css('background-clip', 'text');
+      $('#webpushr-subscriber-count').css('color', 'transparent');
+
+      $('#webpushr-subscriber-count').css('-webkit-background-clip', 'text');
+      $('#webpushr-subscriber-count').css('animation', '5s loading1 ease-in-out infinite');
+      $('#webpushr-subscriber-count').css('ont-size', '22px');
+      // onloadCallback()
+    };
+});  
+    
+
+
+
+
+
+let GameIdS = getCookie("GameInfo");
+let OthersGames = getCookie("OthersGames");
+if (home != false) {
+    if (GameIdS != "") {
+        var inforPart = GameIdS.split(",")
+        var IName = inforPart[0]
+        var IPlaying = inforPart[1]
+        GlobalGameID = getCookie("GameId")
+        $('#GameName').text(IName)
+        if (parseInt(IPlaying) >= 10) {
+          $("#GameName").append('<i style="font-size: 13px; margin-left: 7px;" id="PlayingGame" class="fa-solid fa-user-group"> '+IPlaying.toString()+'</i>')
+        }
+        $('#CaptchaGame').css('display', 'none');
+        $('#GameCurrent').css('display', 'block');
+        $('#GameLoading').css('display', 'none');
+     }
+     if (OthersGames != "") {
+       setTimeout(() => {
+        if (OthersGames == '[{}]' ) {
+          $('#TextCondosStatus').text("No hay juegos condo disponibles en este momento, regresa pronto o publica tu juego condo.")
+        } else {
+
+        var HtmlData = GetBasePlateToGame(JSON.parse(OthersGames))
+        $(".food_section").append(HtmlData);
+        $( ".PostCaptchaError" ).remove();
+
+        $('.filters_menu li').click(function () {
+          $('.filters_menu li').removeClass('active');
+          $(this).addClass('active');
+          var data = $(this).attr('data-filter');
+          $grid.isotope({
+              filter: data
+           })
+       });
+       var $grid = $(".grid").isotope({
+        itemSelector: ".all",
+        percentPosition: false,
+        masonry: {
+          columnWidth: ".all"
+      }
+    })
+  }
+        
+       }, 2000);
+       
+     }
+     
+}
