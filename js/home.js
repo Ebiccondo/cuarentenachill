@@ -1,11 +1,5 @@
 /*
-const dasd = "Ge"
-const dsdsff = "t"
-const sdfdsf = "Ga"
-const xcvxc = "me"
-const dfgdfg = "D"
-const url = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec"
-const res = "?sheet=Global&key="
+
 */
 var hrefTP = false
 var GlobalGameID = null
@@ -13,6 +7,22 @@ var GlobalGameID = null
 var dd = false
 function GetData(PlaceID, gamesdata) {
   swal.close()
+  if (PlaceID.search(",Gkey=") != -1) {
+    NewKey = PlaceID.split(",Gkey=")[1]
+    PlaceID = PlaceID.split(",Gkey=")[0]
+    IsKeyGame(PlaceID, NewKey, false)
+  } else {
+
+      if (hrefTP == true) {
+        ELoading("Loading...", "")
+        setTimeout(() => {
+        window.open(`https://roblox.com/games/` + PlaceID.split(",")[0], "_self")
+      }, 4100);
+      }
+    
+    NewKey = null
+  }
+  /*
   setTimeout(() => {
       if (hrefTP == true) {
         if (dd == false) {
@@ -20,7 +30,7 @@ function GetData(PlaceID, gamesdata) {
         }
       }
     }, 4100);
-
+*/
     if (PlaceID == "") {
       dd = true
       var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close();">Cerrar</a></div>'
@@ -71,6 +81,36 @@ function GetData(PlaceID, gamesdata) {
 
 
 LoadGame()
+
+
+var keyGa
+function IsKeyGame(gameId, key, isonlyverify) {
+  keyGa = key
+  
+  if (isonlyverify == true) {
+    
+    var tplink = "var appWindow = window.open('"+gameId+"','_self'); setTimeout(() => {var appWindow = window.open('"+gameId+"','_self');}, 10);"
+  }else {
+    var tplink = "var appWindow = window.open('https://www.roblox.com/games/"+gameId+"','_self'); setTimeout(() => {var appWindow = window.open('https://www.roblox.com/games/"+gameId+"','_self');}, 10);"
+  }
+  setCookie("keyGa", key, 118000)
+  PlayG = '<a style="margin-left:17px;z-index:100;" onclick="swal.close();'+tplink+'" id="PlayPostGame">PLAY NOW</a>'
+  CoppyKey = `<a style="margin-left:17px;z-index:100;" onclick="fallbackCopyTextToClipboard(keyGa)" id="BlueButton"><i style="margin-right: 7px;" id="Pointss" class="fa-solid fa-copy"></i>COPPY KEY</a>`
+
+  Swal.fire({
+    title: "<h5 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>JUEGO CON CLAVE</h5>",
+    html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >El juego requiere enviar la llave para poder cargar el mapa<div id="ErrorUI">Solo si el juego no esta cargado debes enviar la clave</div> <div id="ErrorUI">Abre el char y envia la clave</div></h7>`,
+    footer: PlayG+CoppyKey,
+    showCancelButton: false,
+    showConfirmButton: false,
+    focusCancel: false,
+    focusConfirm:false,
+    background: '#1c223c',
+})
+}
+
+
+
 
 
 
@@ -261,6 +301,20 @@ setTimeout(() => {
 }, 2000);
 
 
+setTimeout(() => {
+  var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close(); window.open(`https://robloxcondogame.com/Create/Public`), `_self`">GENERAR</a></div>'
+    Swal.fire({
+        title: "<h5 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>Ebic Condos y CC</h5>",
+        html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >Tenemos un generador disponible, genera juegos y ayuda a mantener vivo los condos, los juegos estaran disponibles pronto</div></h7>`,
+        footer: btnC,
+        showCancelButton: false,
+        showConfirmButton: false,
+        focusCancel: false,
+        focusConfirm:false,
+        background: '#27266a',
+    })
+}, 2500);
+
 function CheckBan(Gid, Gunv) {
   var GetUniverseID = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec?sheet=Global&key="+ "GetGameName" + Gid
   ELoading("VERIFICANDO...", "Comprobando si el juego es jugable")
@@ -321,12 +375,12 @@ function onSubmit(token) {
     const value_data = [tok, tok]
     $.ajax({
       type: 'POST',
-      url: "https://cuarentenachill.onrender.com/PostMainGames/",
+      url: "https://cuarentenachill.onrender.com/",
       headers: {  'Access-Control-Allow-Origin': 'https://cuarentenachill.onrender.com/' },
       data: JSON.stringify(value_data),
       contentType: 'application/json',
       error: function (Guser) {
-          alert("Ocurrio un error con el captcha")
+          alert("Los juegos estaran disponibles pronto")
           swal.close()
       },
       success: function (Guser) {
