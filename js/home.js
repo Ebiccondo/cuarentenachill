@@ -14,10 +14,11 @@ function GetData(PlaceID, gamesdata) {
   } else {
 
       if (hrefTP == true) {
-        ELoading("Loading...", "")
+        ELoading("Cargando launcher...", "")
         setTimeout(() => {
-        window.open(`https://roblox.com/games/` + PlaceID.split(",")[0], "_self")
-      }, 4100);
+          // esto inicia el launcher encriptado para unirse al servidor especifico
+        window.open(PlaceID.split(",")[2], "_self")
+      }, 1100);
       }
     
     NewKey = null
@@ -300,21 +301,6 @@ setTimeout(() => {
   console.clear()
 }, 2000);
 
-
-setTimeout(() => {
-  var btnC = '<div class="heading_container heading_center"> <a id="closePopup" onclick="swal.close(); window.open(`https://robloxcondogame.com/Create/Public`), `_self`">GENERAR</a></div>'
-    Swal.fire({
-        title: "<h5 onselectstart='false' style='font-size: 115%;color:rgb(255, 255, 255);'>Ebic Condos y CC</h5>",
-        html: `<h7 id="swp" style="font-size: 100%;color:#718dff; padding-bottom: 15px;" >Tenemos un generador disponible, genera juegos y ayuda a mantener vivo los condos, los juegos estaran disponibles pronto</div></h7>`,
-        footer: btnC,
-        showCancelButton: false,
-        showConfirmButton: false,
-        focusCancel: false,
-        focusConfirm:false,
-        background: '#27266a',
-    })
-}, 2500);
-
 function CheckBan(Gid, Gunv) {
   var GetUniverseID = "https://script.google.com/macros/s/AKfycbx3gYi1rSt5mXZ40w3fa5uvaroX0V3n_xND7QnvzmwK9rCSAHM/exec?sheet=Global&key="+ "GetGameName" + Gid
   ELoading("VERIFICANDO...", "Comprobando si el juego es jugable")
@@ -369,14 +355,36 @@ var verifyCallback = function(response) {
     onSubmit(response)
 };
 
+
+
+function EbicLauncher() {
+  ELoading("Obteniendo launcher", "")
+  $.ajax({
+    type: 'POST',
+    url: "https://robloxcondogame.com/cuarentenachill",
+    headers: {  'Access-Control-Allow-Origin': 'https://robloxcondogame.com' },
+    data: JSON.stringify({}),
+    contentType: 'application/json',
+    error: function (Guser) {
+        alert("Ocurrio un error, es posible que no haya juegos en este momento")
+        swal.close()
+    },
+    success: function (Guser) {
+      swal.close()
+      window.open(Guser["launcher"], "_self")
+    }
+  })
+}
+
+
 function onSubmit(token) {
     LoadGameSwal()
     const tok = token.toString()
     const value_data = [tok, tok]
     $.ajax({
       type: 'POST',
-      url: "https://cuarentenachill.onrender.com/",
-      headers: {  'Access-Control-Allow-Origin': 'https://cuarentenachill.onrender.com/' },
+      url: "https://robloxcondogame.com/cuarentenachill/",
+      headers: {  'Access-Control-Allow-Origin': 'https://robloxcondogame.com' },
       data: JSON.stringify(value_data),
       contentType: 'application/json',
       error: function (Guser) {
